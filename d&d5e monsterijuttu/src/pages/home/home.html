@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+              Infoa
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content >
+    <ion-card-content>
+      <ion-col col-8>
+        <ion-item>
+          <div class="d-flex w-100 justify-content-between">
+          <ion-list>
+            <td>
+              <tr>
+                <ion-grid>
+                  <ion-row>
+                    <ion-col>
+                        <h1><p text-uppercase class="d-flex w-10 justify-content-between"> Name </p> {{ nimi }} </h1>
+                        <h2><p text-uppercase class="d-flex w-10 justify-content-between"> Tyyppi </p> {{ tyyppi }} </h2>
+                        <h2><p text-uppercase class="d-flex w-10 justify-content-between"> Kyvyt </p> {{ sense }} </h2>
+                        <h2><p text-uppercase class="d-flex w-10 justify-content-between"> Koko </p> {{ size }} </h2>
+                        <h2><p text-uppercase class="d-flex w-10 justify-content-between"> Osuminen </p> {{ hit_dice }} </h2>
+                        <h2><p text-uppercase class="d-flex w-10 justify-content-between"> Panssari </p> {{ armor_class }} </h2>
+                        <h2><p text-uppercase class="d-flex w-10 justify-content-between"> Hitpointit </p> {{ hit_points }} </h2>
+                    </ion-col>
+                    <ion-col>
+                    <h1>Stats</h1>
+            <h2><p text-uppercase class="d-flex w-300 justify-content-between"> strength </p> {{ strength }} </h2>
+            <h2><p text-uppercase class="d-flex w-300 justify-content-between"> dexterity </p> {{ dexterity }} </h2>
+            <h2><p text-uppercase class="d-flex w-300 justify-content-between"> constitution </p> {{ constitution }} </h2>
+            <h2><p text-uppercase class="d-flex w-300 justify-content-between"> intelligence </p> {{ intelligence }} </h2>
+            <h2><p text-uppercase class="d-flex w-300 justify-content-between"> wisdom </p> {{ wisdom }} </h2>
+            <h2><p text-uppercase class="d-flex w-300 justify-content-between"> charisma </p> {{ charisma }} </h2>
+                    </ion-col>
+                    <ion-col>
+                        <h1>Saving Throwit</h1>
+                <h2><p text-uppercase class="d-flex w-10 justify-content-between"> constitution_save </p> {{ constitution_save }} </h2>
+                <h2><p text-uppercase class="d-flex w-10 justify-content-between"> intelligence_save </p> {{ intelligence_save }} </h2>
+                <h2><p text-uppercase class="d-flex w-10 justify-content-between"> wisdom_save </p> {{ wisdom_save }} </h2>
+                        </ion-col>
+                        <ion-col>
+                            <h1>Erilaiset taidot</h1>
+                    <h2><p text-uppercase class="d-flex w-10 justify-content-between" align-self-center> history </p> {{ history }} </h2>
+                    <h2><p text-uppercase class="d-flex w-10 justify-content-between" align-self-center> perception </p> {{ perception }} </h2>
+                    <h2><p text-uppercase class="d-flex w-10 justify-content-between" align-self-center> arcana </p> {{ arcana }} </h2>
+                    <h2><p text-uppercase class="d-flex w-10 justify-content-between" align-self-center> athletics </p> {{ athletics }} </h2>
+                    <h2><p text-uppercase class="d-flex w-10 justify-content-between" align-self-center> stealth </p> {{ stealth }} </h2>
+                    <h2><p text-uppercase class="d-flex w-10 justify-content-between" align-self-center> intimidation </p> {{ intimidation }} </h2>
+                            </ion-col>
+                </ion-row>
+            </ion-grid>
+            </tr>
+            </td>
+            </ion-list>
+           
+          
+      
+          </div>
+          </ion-item>
+        </ion-col>
+    
+      </ion-card-content>
+</ion-content>
